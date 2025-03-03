@@ -1,0 +1,12 @@
+[workspace]
+members = ["water"]
+
+[package]
+name = "bevy-waves"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+bevy = "0.15.3"
+hot-lib-reloader = "^0.7.0"
+water_plugin={path="./water"}

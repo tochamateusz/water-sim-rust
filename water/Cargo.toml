@@ -1,0 +1,12 @@
+[package]
+name = "water_plugin"
+version = "0.1.0"
+edition = "2021"
+autolib = false
+
+[dependencies]
+bevy = "0.15.3"
+
+[lib]
+path = "./plugin/mod.rs" 
+crate-type = ["rlib", "dylib"]
